@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-color: #690202;
+}
+#timer{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+#actionContainer{
+    text-align: center;
+}
+.actionContainerButtons{
+    width: 100px;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 15px;
+    background-color: #035379;
+    color: white;
+    border: 0px;
+    align-items: center;
+    -webkit-box-shadow: 5px 0px 28px 5px #000000; 
+    box-shadow: 5px 0px 28px 5px #000000;
+}
+.actionContainerButtons:hover{
+    cursor: pointer;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: #035379;
+    margin: 1px;
+    border: 0;
+    border-radius: 15px;
+}
+.image{
+    visibility: hidden;
+}
+.button:hover{
+    cursor: pointer;
+}
